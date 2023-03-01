@@ -1,0 +1,195 @@
+#title{
+    background-color: #ff4c68 ;
+    color: #fff;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center; 
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Courier New', Courier, monospace
+}
+
+p{
+    color: #8f8f8f;
+   
+}
+
+/*  Headings  */
+.big-heading{
+    font-family: "Ubuntu";
+    font-size: 3.75rem;
+    line-height: 1.5;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 30px 30px 10px 30px;
+    color: white;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 3rem;
+    padding: 30px;
+}
+
+
+.container-fluid{
+    padding: 3% 15%;
+    padding-bottom: 15%;
+}
+
+/* navigation bar */
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+.navbar{
+    padding-bottom: 40px;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/* Download buttons */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+    padding: 30px;
+}
+
+/* feature section  */
+#features {
+        padding: 7% 15%;
+        background-color:white;
+        position: relative;
+ 
+     
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+        color: #ff4c68;
+}
+
+/* testimonial section */
+#testimonials {
+ 
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+
+}
+
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin-left: 43%;
+    padding: 20px 0 20px 0;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 15px;
+}
+ 
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+    
+}
+
+.pricing-coloumn{
+    padding: 3% 2%;
+}
+
+.price-text {
+    font-size: 3.5rem;
+    line-height: 1.25;
+}
+
+@media (max-width: 993.6px){
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+
+
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%
+
+}
+
+.cta-heading{
+    font-size: 3.5rem;
+    line-height: 1;
+}
+
+
+.social-icon{
+    margin: 20px 10px;
+}
